@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    width: 60%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    color: aliceblue;
+    font-size: 19px;
+    transition: -5s;
+    font-family: 'kadan Thmor Pro', sans-serif;
+}
+li:hover {
+    color: #D21617;
+}
+#logo {
+    width: 150px;
+    height: auto;
+}
+#banner {
+    background-image: url('https://static1.srcdn.com/wordpress/wp-content/uploads/Batman-V-Superman-Easter-Eggs.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trailer {
+    width: 50%;
+}
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+#comentario {
+    
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.description {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'kadan Thmor Pro', sans-serif;
+    width: 70%;
+}
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #D21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'kadan Thmor Pro', sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://free-3dtextureshd.com/wp-content/webpc-passthru.php?src=https://free-3dtextureshd.com/wp-content/uploads/2024/06/26.jpg&nocache=1');
+}
+.banner-2 {
+    background-image: url('https://free-3dtextureshd.com/wp-content/webpc-passthru.php?src=https://free-3dtextureshd.com/wp-content/uploads/2024/05/88.jpg&nocache=1');
+}
+.banner-3 {
+    background-image: url('https://i.pinimg.com/736x/3d/61/6c/3d616c813a0c1bee6f0534ec62c1eea9.jpg');
+}
+.banner-4 {
+    background-image: url('https://i.pinimg.com/originals/41/df/b5/41dfb527fc5d9f1a04dc875c1a2e7532.png');
+}
+.banner-5 {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/9/85/240/batman-vs-superman-background-for-pc-wallpaper-preview.jpg');
+}
+.banner-6 {
+    background-image: url('https://i.pinimg.com/736x/35/10/fa/3510fa75113c6e9f49c0d0998efea244.jpg');
+}
+.banner-7 {
+    background-image: url('https://cebolaverde.com.br/wp-content/uploads/2017/03/Superman-Angry.jpg');
+}
+.banner-8 {
+    background-image: url('https://www.cineset.com.br/wp-content/uploads/2016/07/Batman-v-Superman-.jpg');
+}
+.banner-9 {
+    background-image: url('https://br.web.img3.acsta.net/newsv7/16/03/28/23/21/587296.jpg');
+}
+.banner-10 {
+    background-image: url('https://jpimg.com.br/uploads/2017/04/196154013-em-nova-previa-batman-vs-superman-traz-confronto-tenso-entre-herois-assista.jpg');
+}
+.banner-11 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7omAQBw8KuXDtyVU7kIh0rbEER13Z2EyHe8BijD3VwPVdXP3rW7lh6YjyjapNF4xQSRrgDhrGdICV-mX-O-c__oVpV2etwxmv8Ro7m97SX0pSyLSkbUXRf48-c6BIXM-C2HwEcIhRFsAfsoUMwvNB_SC8tY5L6jAX28duM23EDci7o_gPJUGY7c-G/s1920/batman-vs-superman-free-printable-posters-004.jpg');
+}
+.banner-12 {
+    background-image: url('https://www.fandimefilmu.cz/files/images/Filmy/Batman_vs_Superman/article_main_Batman_v_Superman_titulka_41.jpg');
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+span{
+    color: #fff;
+    font-family: 'kadan Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Formulario contato*/
+
+form {
+    font-family: 'kadan Thmor Pro', sans-serif;
+    font-size: 18px;
+    background-color: #f85757;  
+    max-width: 500px;
+    margin: 10% 35%;
+    
+}
+label {
+    background-color: #f85757;  
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color: #fff;
+    background-color:  #f85757;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color:  #f85757;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #4444ab;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: #FFF;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: #000;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+.enviar:hover{
+    background-color: #D21617;
+    color: #FFF;
+    transition: .2s;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+
+
+@media(max-width:768px){
+    .footer-navigation {
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    #banner {
+        background-position: 50%;
+    }
+    #trailer-container {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .trailer {
+        width: 100%;
+    }
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .description {
+        width: 100%;
+    }
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+    form{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;  
+        font-size: 16px;      
+    }
+    
+    textarea{
+        width: 80%;
+    }
+    h1{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    .form {
+        margin-top: 25px;
+    }
+   
+}
